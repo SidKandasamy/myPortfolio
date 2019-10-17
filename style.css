@@ -5,3 +5,28 @@ img{
 svg{
     width:40px;
 }
+
+.container{
+    display: flex;
+    flex-direction: wrap;
+    justify-content: space-between;
+}
+
+header{
+    margin:10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 5px;
+    border: 0.5px solid blue;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    font-family: 'kurale', arial, sans-serif;
+    background-color: #26444c;
+    color: white;
+    border-radius: 10px;
+
+}
