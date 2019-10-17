@@ -30,3 +30,16 @@ nav ul li {
     border-radius: 10px;
 
 }
+
+.intro{
+    background-image: url(images/notebook-1280538_640.jpg);
+    background-size: cover;
+}
+
+body{
+    background-color: #5DBCD2
+}
+
+main{
+    height: 600px;
+}
