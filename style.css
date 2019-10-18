@@ -19,12 +19,13 @@ header{
 nav ul li {
     display: inline;
     margin: 5px;
-    border: 0.5px solid blue;
+    border: 0.5px solid none;
     box-sizing: border-box;
     padding: 10px;
     margin: 10px;
     width: 100px;
     font-family: 'kurale', arial, sans-serif;
+    text-shadow: 2px -1px 13px rgba(149, 150, 115, 1);
     background-color: #26444c;
     color: white;
     border-radius: 10px;
@@ -34,12 +35,38 @@ nav ul li {
 .intro{
     background-image: url(images/notebook-1280538_640.jpg);
     background-size: cover;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
 }
 
 body{
-    background-color: #5DBCD2
+    background-color: #696969	
 }
 
 main{
     height: 600px;
+}
+
+.name{
+    letter-spacing: 3px;
+    padding-top: 20px;
+    text-align: left;
+    text-shadow: 2px -1px 13px rgba(149, 150, 115, 1);
+    font-size: 6em;
+    font-family: 'Raleway';
+    font-weight: lighter;
+    color: white;
+}
+
+.info{
+    letter-spacing: 3px;
+    padding-top: 20px;
+    text-align: left;
+    text-shadow: 2px -1px 13px rgba(149, 150, 115, 1);
+    font-size: 2em;
+    font-family: 'Raleway';
+    font-weight: lighter;
+    color:white;
 }
