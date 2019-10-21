@@ -100,3 +100,7 @@ p{
     justify-content: center;
 }
 
+nav{
+    display:flex;
+    padding-left:350px;
+}
