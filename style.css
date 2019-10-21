@@ -70,3 +70,19 @@ main{
     font-weight: lighter;
     color:white;
 }
+
+.image{
+    display:flex;
+    align-items: center;
+}
+
+.image img{
+
+    margin: 4rem;
+    width:500px;
+
+}
+
+p{
+    width: 600px;
+}
