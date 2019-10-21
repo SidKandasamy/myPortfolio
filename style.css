@@ -111,3 +111,11 @@ h6{
     color: #d2143a;
     text-transform: uppercase;
 }
+
+h6{
+    padding-left:56px;
+}
+
+h8{
+    padding-left:56px;
+}
